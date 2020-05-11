@@ -1,0 +1,15 @@
+{% extends 'layout.html'%}
+
+{% block content %}
+<div class="d-flex justify-content-center"> 
+    <div class="text-center">
+        <h3>تم تسجيلك بنجاح </h3>
+    </div>
+
+</div>
+<script>
+window.setTimeout(function(){
+window.location.href = "{{url_for('index')}}";
+}, 5000);
+</script>
+{% endblock %}

@@ -19,7 +19,7 @@ if __name__ == "__main__":
     models.initialize()
     try:
         models.Users.create_user(
-            email='abajall@gmail.com',
+            email='a@a.a',
             password='0000',
             admin=True
         )
